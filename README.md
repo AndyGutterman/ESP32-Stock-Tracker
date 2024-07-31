@@ -11,7 +11,7 @@ This project uses an ESP32 microcontroller to create a stock ticker with a 16x2 
    - Connect LEDs to GPIO 27 (green) and GPIO 26 (red). (D27 and D26)
   
    <p align="center">
-     <img src="https://raw.githubusercontent.com/AndyGutterman/StockTicker-ESP32-LCD1602/main/demo_images/wiring.jpg" alt="Wiring" style="width: 60%; max-width: 400px;">
+     <img src="https://raw.githubusercontent.com/AndyGutterman/StockTracker-ESP32-LCD1602A/main/demo_images/wiring.jpg" alt="Wiring" style="width: 60%; max-width: 400px;">
    </p>
 
 2. **Software Setup**:
@@ -24,7 +24,7 @@ This project uses an ESP32 microcontroller to create a stock ticker with a 16x2 
    - Use the web interface to add/delete stocks, start/stop the ticker loop, and toggle the LCD backlight.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AndyGutterman/StockTicker-ESP32-LCD1602/main/demo_images/stock_controller_demo.PNG" alt="Stock Controller Demo" style="width: 60%; max-width: 600px;">
+  <img src="https://raw.githubusercontent.com/AndyGutterman/StockTracker-ESP32-LCD1602A/main/demo_images/stock_controller_demo.PNG" alt="Stock Controller Demo" style="width: 60%; max-width: 600px;">
 </p>
 
 <p align="center">
