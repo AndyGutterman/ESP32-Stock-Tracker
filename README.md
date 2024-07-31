@@ -6,14 +6,16 @@ This project uses an ESP32 microcontroller to create a stock ticker with a 16x2 
 
 ![Stock Controller Demo](https://raw.githubusercontent.com/AndyGutterman/StockTicker-ESP32-LCD1602/main/demo_images/stock_controller_demo.PNG)
 
+<img src="https://raw.githubusercontent.com/AndyGutterman/ESP32-Stock-Tracker/main/demo_images/loop_example.jpg" alt="Wiring" style="width: 60%; max-width: 400px;">
+
+
 ### Installation and Usage
 
 1. **Hardware Setup**:
    - Connect the LCD1602 to the ESP32 via I2C. (D21 and D22)
    - Connect LEDs to GPIO 27 (green) and GPIO 26 (red). (D27 and D26)
   
-   <img src="https://raw.githubusercontent.com/AndyGutterman/StockTicker-ESP32-LCD1602/main/demo_images/wiring.jpg" alt="Wiring" style="width: 50%; max-width: 400px;">
-
+   <img src="https://raw.githubusercontent.com/AndyGutterman/StockTicker-ESP32-LCD1602/main/demo_images/wiring.jpg" alt="Wiring" style="width: 60%; max-width: 400px;">
 2. **Software Setup**:
    - Install the Arduino IDE and add ESP32 board support.
    - Install required libraries: `WiFi.h`, `LiquidCrystal_I2C.h`, `SPIFFS.h`.
